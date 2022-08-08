@@ -21,3 +21,16 @@ for row in arr_2d:
         print(elem,end = " ")
 
     print()
+
+'''
+list comprehension을 이용 할 때 
+조건을 넣어서 이용 할 수 있다.
+ex ) 
+arr_3 = [
+[ 1 if arr_1[i][j] != arr_2[i][j] else 0 for j in range(m)]
+for i in range(n)
+]
+
+위 코드처럼 if else 문을 이용하여 어떠한 것을 추가할지 정해줄 수 있다.
+
+'''
